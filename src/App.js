@@ -15,6 +15,7 @@ import SchoolPolicy from './Componants/AboutUs/SchoolPolicy';
 import Apply from './Componants/Admission/Apply'
 
 // Co-Curricular
+
 import KGOne from './Componants/Co-Curricular/KG/KGOne'
 import KGTwo from './Componants/Co-Curricular/KG/KGTwo'
 import primaryOne from './Componants/Co-Curricular/Primary/primaryOne'

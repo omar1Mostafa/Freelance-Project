@@ -27,15 +27,10 @@ function NavbarComponant(){
                     
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About Us
-          </a>
-          <ul class="dropdown-menu">
-            <li><Link className="dropdown-item" to="/Test">Test</Link></li>
-            <li><Link class="dropdown-item" to="/AboutUs">About Us</Link></li>
-            <li><Link class="dropdown-item" to="/SchoolPolicy">School Policy</Link></li>
-          </ul>
+            <li><Link  to="/Test">About Us</Link></li>
         </li>
+
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Education
@@ -47,6 +42,7 @@ function NavbarComponant(){
             <li><Link class="dropdown-item" to="/DigitalLearning">Digital Learning</Link></li>
           </ul>
         </li>
+
                     {/* ///////////////////////////////////////////////////////////// */}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
