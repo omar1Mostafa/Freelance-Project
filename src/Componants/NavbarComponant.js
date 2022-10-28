@@ -31,10 +31,9 @@ function NavbarComponant(){
             About Us
           </a>
           <ul class="dropdown-menu">
-            <li><Link className="dropdown-item" to="/Overview">Overview</Link></li>
-            <li><Link class="dropdown-item" to="/WelcomeLetter">Welcome Letter</Link></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" to="/Values">Our Values</Link></li>
+            <li><Link className="dropdown-item" to="/Test">Test</Link></li>
+            <li><Link class="dropdown-item" to="/AboutUs">About Us</Link></li>
+            <li><Link class="dropdown-item" to="/SchoolPolicy">School Policy</Link></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -48,16 +47,64 @@ function NavbarComponant(){
             <li><Link class="dropdown-item" to="/DigitalLearning">Digital Learning</Link></li>
           </ul>
         </li>
-
+                    {/* ///////////////////////////////////////////////////////////// */}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Co-Curricular
           </a>
           <ul class="dropdown-menu">
-            <li><Link class="dropdown-item" to="/Art">Art</Link></li>
-            <li><Link class="dropdown-item" to="/TechInno">Technology and Innovation</Link></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" to="/Sports">Sports</Link></li>
+              {/* ////////////////// KG//////////////////// */} 
+            <li><Link class="dropdown-item">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    KG
+                  </a>
+                  <ul class="dropdown-menu"> 
+                      {/* //////////////////KG 2//////////////////// */}
+                    <li><Link class="dropdown-item" to="/KGOne">KG 1</Link></li>
+                      {/* //////////////////KG 2//////////////////// */}
+                    <li><Link class="dropdown-item" to="/KGTwo">KG 2</Link></li>
+                  </ul>
+              </li>
+            </Link></li>
+              {/* ////////////////// Primary//////////////////// */}
+            <li><Link class="dropdown-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Primary
+                </a>
+                <ul class="dropdown-menu">
+                    {/* //////////////////Primary 1//////////////////// */} 
+                  <li><Link class="dropdown-item" to="/primaryOne">Primary 1</Link></li>
+                    {/* //////////////////Primary 2//////////////////// */}
+                  <li><Link class="dropdown-item" to="/primaryTwo">Primary 2</Link></li>
+                    {/* //////////////////Primary 3//////////////////// */}
+                  <li><Link class="dropdown-item" to="/primaryThr">Primary 3</Link></li>
+                    {/* //////////////////Primary 4//////////////////// */} 
+                  <li><Link class="dropdown-item" to="/primaryFour">Primary 4</Link></li>
+                    {/* //////////////////Primary 5//////////////////// */}
+                  <li><Link class="dropdown-item" to="/primaryFi">Primary 5</Link></li>
+                    {/* //////////////////Primary 6//////////////////// */}
+                  <li><Link class="dropdown-item" to="/primarySix">Primary 6</Link></li>
+                </ul>
+              </li>
+            </Link></li>
+              {/* //////////////////Pre-School//////////////////// */}
+            <li><Link class="dropdown-item">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    prep
+                  </a>
+                  <ul class="dropdown-menu"> 
+                      {/* //////////////////prep 1//////////////////// */}
+                    <li><Link class="dropdown-item" to={"/prepOne"}>prep 1</Link></li>
+                      {/* //////////////////prep 2//////////////////// */}
+                    <li><Link class="dropdown-item" to={"/prepTwo"}>prep 2</Link></li>
+                      {/* //////////////////prep 3//////////////////// */}
+                      <li><Link class="dropdown-item" to={"/prepTh"}>prep 3</Link></li>
+                  </ul>
+              </li>
+            </Link></li>
           </ul>
         </li>
 

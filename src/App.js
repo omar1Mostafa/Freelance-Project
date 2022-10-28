@@ -6,18 +6,27 @@ import NavbarComponant from './Componants/NavbarComponant';
 import HomeComponant from './Componants/HomeComponant';
 
 // About Us
-import Overview from './Componants/AboutUs/Overview';
-import Values from './Componants/AboutUs/Values';
-import WelcomeLetter from './Componants/AboutUs/WelcomeLetter';
+import AboutUs from './Componants/AboutUs/AboutUs';
+import Test from './Componants/AboutUs/Test';
+import SchoolPolicy from './Componants/AboutUs/SchoolPolicy';
 
 // Admission
 import Admission from './Componants/Admission/Admission';
 import Apply from './Componants/Admission/Apply'
 
 // Co-Curricular
-import Art from './Componants/Co-Curricular/Art'
-import Sports from './Componants/Co-Curricular/Sports'
-import TechInno from './Componants/Co-Curricular/TechInno'
+import KGOne from './Componants/Co-Curricular/KG/KGOne'
+import KGTwo from './Componants/Co-Curricular/KG/KGTwo'
+import primaryOne from './Componants/Co-Curricular/Primary/primaryOne'
+import primaryTwo from './Componants/Co-Curricular/Primary/primaryTwo';
+import primaryThr from './Componants/Co-Curricular/Primary/primaryThr';
+import primaryFour from './Componants/Co-Curricular/Primary/primaryFour';
+import primaryFi from './Componants/Co-Curricular/Primary/primaryFi';
+import primarySix from './Componants/Co-Curricular/Primary/primarySix';
+import prepOne from './Componants/Co-Curricular/Prep/prepOne'
+import prepTwo from './Componants/Co-Curricular/Prep/prepTwo';
+import prepTh from './Componants/Co-Curricular/Prep/prepTh'
+
 
 // Community
 
@@ -54,9 +63,10 @@ function App() {
 
  {/*About US Routes  */}
 
- <Route path={"/Overview"} exact component={Overview}/>
- <Route path={"/Values"} exact component={Values}/>
- <Route path={"/WelcomeLetter"} exact component={WelcomeLetter}/>
+ <Route path={"/AboutUs"} exact component={AboutUs}/>
+ <Route path={"/Test"} exact component={Test}/>
+ <Route path={"/SchoolPolicy"} exact component={SchoolPolicy}/>
+
  
  {/* Admission Routes */}
 
@@ -66,9 +76,18 @@ function App() {
 {/* Co-Curricular Routes */}
 
 
-<Route path={"/Art"} exact component={Art}/>
-<Route path={"/Sports"} exact component={Sports}/>
-<Route path={"/TechInno"} exact component={TechInno}/>
+<Route path={"/KGOne"} exact component={KGOne}/>
+<Route path={"/KGTwo"} exact component={KGTwo}/>
+<Route path={"/primaryOne"} exact component={primaryOne} />
+<Route path={"/primaryTwo"} exact component={primaryTwo} />
+<Route path={"/primaryThr"} exact component={primaryThr} />
+<Route path={"/primaryFour"} exact component={primaryFour} />
+<Route path={"/primaryFi"} exact component={primaryFi} />
+<Route path={"/primarySix"} exact component={primarySix} />
+<Route path={"/prepOne"} exact component={prepOne} />
+<Route path={"/prepTwo"} exact component={prepTwo} />
+<Route path={"/prepTh"} exact component={prepTh} />
+
 
 {/* Community Routes */}
 
