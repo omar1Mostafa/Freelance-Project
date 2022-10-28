@@ -120,15 +120,9 @@ function NavbarComponant(){
           </ul>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Admissions
-          </a>
-          <ul class="dropdown-menu">
-            <li><Link class="dropdown-item" to="/Admission">Admissions Process</Link></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" to="/Apply">Apply Now</Link></li>
-          </ul>
+        <li class="nav-item">
+            <li><Link  to="/Apply">Apply Now</Link></li>
+
         </li>
 
 

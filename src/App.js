@@ -11,7 +11,7 @@ import Test from './Componants/AboutUs/Test';
 import SchoolPolicy from './Componants/AboutUs/SchoolPolicy';
 
 // Admission
-import Admission from './Componants/Admission/Admission';
+
 import Apply from './Componants/Admission/Apply'
 
 // Co-Curricular
@@ -70,7 +70,6 @@ function App() {
  
  {/* Admission Routes */}
 
- <Route path={"/Admission"} exact component={Admission}/>
  <Route path={"/Apply"} exact component={Apply}/>
 
 {/* Co-Curricular Routes */}
