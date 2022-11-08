@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 // Navbar Componant
 import NavbarComponant from './Componants/NavbarComponant';
 
@@ -51,7 +51,6 @@ import Admissions from './Componants/Admission/Admissions';
 import Footer from './Componants/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-
 
 function App() {
   return (
