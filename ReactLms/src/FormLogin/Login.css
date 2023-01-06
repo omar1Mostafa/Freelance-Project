@@ -1,0 +1,26 @@
+.body-container{
+    /* height:100%; */
+    background-image: linear-gradient( to right ,rgb(206, 226, 238) ,rgb(104, 188, 236), rgb(8, 107, 164));
+}
+.form-container{
+    border-radius: 1%;
+    box-shadow: 7px 5px 18px 6px #76cfeca8;
+    background-color: white;
+}
+.form-container {
+    margin: 0 !important;
+}
+.input-container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7%;
+    padding-top: 7%; 
+}
+
+.btn-login{
+    height: 45px;
+    width: 100%;
+    color: white;
+  border-radius: 0px !important;
+  background-image: linear-gradient(to right, rgb(183, 225, 250), rgb(221, 190, 204));
+}

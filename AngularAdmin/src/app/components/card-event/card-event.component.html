@@ -1,0 +1,28 @@
+<mat-card class="example-card">
+    <img mat-card-image src="http://localhost:8080/{{item.image}}"alt="Photo of a event">
+    <mat-card-header>
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <mat-card-subtitle>{{item.date|date:'shortDate'}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{item.description}}
+      </p>
+      <a [href]="item.location.url" target="_blank">{{item.location.name}}</a>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="d-flex justify-content-between">
+        <!-- <button mat-button color="primary">Going</button> -->
+        <button mat-icon-button [mat-menu-trigger-for]="aboveMenu" aria-label="Example icon button with a vertical three dot icon">
+          <mat-icon>more_vert</mat-icon>
+          <mat-menu #aboveMenu="matMenu" yPosition="above">
+            <button mat-menu-item (click)="openDialog()">Edite</button>
+            <button mat-menu-item (click)="delete()">Delete</button>
+          </mat-menu>
+        </button>
+      </div>
+      
+
+    </mat-card-actions>
+  </mat-card>
+  

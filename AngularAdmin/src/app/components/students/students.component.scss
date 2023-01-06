@@ -1,0 +1,23 @@
+
+.full-width{
+    width: 100%;
+} 
+
+.content{
+    width: 80%;
+}
+.fit-content{
+    height: fit-content;
+    width: fit-content;
+}
+
+.mat-dialog-content{
+    height: 383px;
+}
+
+.fab-pos{
+    position: fixed;
+    right: 6%;
+    bottom: 6%;
+    z-index: 5;
+}
